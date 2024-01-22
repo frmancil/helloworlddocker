@@ -11,7 +11,7 @@ This command will create the docker image reading the dockerfile and executing i
         
 Step 3. Once the process is finished, use this command: 
 
-        docker run --name hello -d -p 7775:7775 helloworld:latest
+        docker run --name hello -d -p 7775:3000 helloworld:latest
         
 It will create a container with the image already created, and deploy it in localhost:7775 (supposedly).
 
